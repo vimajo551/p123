@@ -1,0 +1,22 @@
+body
+{
+    background-color: DarkGray;
+}
+
+.heading
+{
+    width: 100%;
+    margin: 0px;
+    font-size: 25px;
+}
+
+.rodape
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: Orange;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
