@@ -1,6 +1,6 @@
 body
 {
-    background-color: DarkGray;
+    background-color: LightSteelBlue;
 }
 
 .heading
@@ -15,8 +15,14 @@ body
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: Orange;
+    background-color: MediumAquamarine;
     text-align: center;
     color: white;
     font-size: 15px;
+}
+canvas
+{
+    border-style: inset;
+
+    box-shadow: 2px 2px 4px #000000;
 }
