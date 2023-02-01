@@ -1,6 +1,6 @@
 body
 {
-    background-color: LightSteelBlue;
+    background-color: DarkGray;
 }
 
 .heading
@@ -15,7 +15,7 @@ body
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: MediumAquamarine;
+    background-color: Orange;
     text-align: center;
     color: white;
     font-size: 15px;
