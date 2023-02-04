@@ -1,3 +1,8 @@
+rightWrist=0;
+leftWrist=0;
+getDifference=0;
+
+
 function preload(){
 
 }
@@ -17,9 +22,16 @@ function modelLoaded(){
 function draw(){
     
     background("white")
+    fill("black")
+    Text("oi",getDifference)
+    document.getElementById("status").innerHTML = "lados do quadrado são:"+getDifference+"px"
 }
 function gotPoses(results){
     if(results.length > 0){
         console.log(results)
+
+        leftWrist=results[0].pose.leftWrist.x
+        rightWrist=results[0].pose.rightWrist.x
+        getDifference=floor(leftWrist-rightWrist)
     }
 }
