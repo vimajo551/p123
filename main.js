@@ -23,7 +23,8 @@ function draw(){
     
     background("white")
     fill("black")
-    Text("oi",getDifference)
+    textSize(getDifference)
+    text("oi",250,200)
     document.getElementById("status").innerHTML = "lados do quadrado são:"+getDifference+"px"
 }
 function gotPoses(results){
